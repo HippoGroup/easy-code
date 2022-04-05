@@ -18,4 +18,10 @@ public class StringUtilTest {
         Assert.assertEquals("预期相同代表去除空白字符成功", e, s);
     }
 
+    @Test
+    public void getOutsetContinuousZeroTest() {
+        String s = StringUtil.getOutsetContinuousZero("00101");
+        Assert.assertEquals("00", s);
+    }
+
 }

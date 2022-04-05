@@ -7,7 +7,7 @@
     <groupId>com.hippocp</groupId>
     <artifactId>easy-code-parent</artifactId>
     <packaging>pom</packaging>
-    <version>0.3.0</version>
+    <version>0.3.1</version>
     <name>easy-code</name>
     <url>https://github.com/HippoGroup/easy-code</url>
     <description>easy-code 轻松编码组件，旨在减少重复劳动，提高工作效率，期望能让每一位 Java 开发者都能专注于自身独特业务。</description>
@@ -54,10 +54,10 @@
         <project.build.sourceEncoding>utf-8</project.build.sourceEncoding>
         <project.reporting.outputEncoding>utf-8</project.reporting.outputEncoding>
 
-        <spring.version>5.2.8.RELEASE</spring.version>
+        <spring.version>5.2.20.RELEASE</spring.version>
         <spring.boot.version>2.3.2.RELEASE</spring.boot.version>
         <lombok.version>1.18.12</lombok.version>
-        <hutool.version>5.7.18</hutool.version>
+        <hutool.version>5.7.19</hutool.version>
         <junit.version>4.13.2</junit.version>
         <slf4j.version>1.7.35</slf4j.version>
         <jakarta.validation.version>2.0.2</jakarta.validation.version>

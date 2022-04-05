@@ -1,5 +1,7 @@
 package com.hippocp.easy.code.util.system;
 
+import com.hippocp.easy.code.util.string.StringUtil;
+
 /**
  * 系统工具类
  *
@@ -19,6 +21,13 @@ public class SystemUtil {
         // 是否Windows系统
         boolean isWindows = osName.toLowerCase().contains("windows");
         return isWindows;
+    }
+
+    /**
+     * @see StringUtil#presentOsLineBreak()
+     */
+    public static String presentOsLineBreak() {
+        return StringUtil.presentOsLineBreak();
     }
 
     private SystemUtil() {
