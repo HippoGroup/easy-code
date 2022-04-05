@@ -7,7 +7,7 @@
     <groupId>com.hippocp</groupId>
     <artifactId>easy-code-parent</artifactId>
     <packaging>pom</packaging>
-    <version>0.3.0</version>
+    <version>0.3.1</version>
     <name>easy-code</name>
     <url>https://github.com/HippoGroup/easy-code</url>
     <description>easy-code 轻松编码组件，旨在减少重复劳动，提高工作效率，期望能让每一位 Java 开发者都能专注于自身独特业务。</description>
